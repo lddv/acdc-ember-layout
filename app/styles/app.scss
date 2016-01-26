@@ -1,0 +1,51 @@
+@import 'materialize';
+@import 'ember-cli-materialize';
+
+ul#main-navigation {
+  &.side-nav {
+    width: 240px;
+    background-color: #424242;
+  }
+  hr {
+    width: 85%;
+    height: 2px;
+    margin: 0 auto;
+    border: 0;
+    padding: 0;
+    background-color: #212121;
+  }
+  .user {
+    position: relative;
+    width: 100%;
+    padding: 40px 15px 15px;
+    text-align: center;
+    margin-bottom: 40px;
+    min-height: 135px;
+    .ac-login-button {
+      width: 100%;
+    }
+    .avatar i {
+      font-size: 80px;
+      color: grey;
+    }
+  }
+  .links {
+    li {
+      padding: 0;
+      a {
+        color: #9E9E9E;
+        i {
+          margin: 0 10px 0 0;
+          vertical-align: middle;
+        }
+        &.active, &:hover {
+          background-color: #212121;
+          border-left: 5px solid #2196F3;
+        }
+      }
+    }
+  }
+}
+.scoot-left {
+   padding-left: 240px;
+}
